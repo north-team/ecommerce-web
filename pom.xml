@@ -23,7 +23,7 @@
 					<descriptors>
 						<descriptor>assembly.xml</descriptor>
 					</descriptors>
-					<finalName>${project.artifactId}-${project.version}</finalName>
+					<finalName>xiaodong510-success-20190510102040124</finalName>
 				</configuration>
 				<executions>
 					<execution>
