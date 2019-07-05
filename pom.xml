@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -20,7 +20,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<version>2.4</version>
 				<configuration>
-					<appendAssemblyId>false</appendAssemblyId>
+					<!--<appendAssemblyId>false</appendAssemblyId>-->
 					<descriptors>
 						<descriptor>assembly.xml</descriptor>
 					</descriptors>
@@ -49,7 +49,7 @@
 		<snapshotRepository>
 			<id>fit2cloud-example</id>
 			<url>http://172.16.124.15/content/repositories/snapshots/</url>
-		</snapshotRepository>			
+		</snapshotRepository>
 	</distributionManagement>
 
 	<!-- download artifacts from this repo -->
