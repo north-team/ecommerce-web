@@ -10,7 +10,7 @@
 	<fileSets>
 		<fileSet>
 			<directory>${project.basedir}</directory>
-			<outputDirectory>/ecommerce-web</outputDirectory>
+			<outputDirectory>/</outputDirectory>
 			<useDefaultExcludes>true</useDefaultExcludes>
 			<excludes>
 				<exclude>**/*.log</exclude>
