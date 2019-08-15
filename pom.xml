@@ -23,8 +23,8 @@
 					<descriptors>
 						<descriptor>assembly.xml</descriptor>
 					</descriptors>
-					<!--<finalName>${project.artifactId}-${project.version}</finalName>-->
-					<finalName>${project.artifactId}</finalName>
+					<finalName>${project.artifactId}-${project.version}</finalName>
+					<!--<finalName>${project.artifactId}</finalName>-->
 				</configuration>
 				<executions>
 					<execution>
