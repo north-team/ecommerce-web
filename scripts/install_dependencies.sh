@@ -1,9 +1,10 @@
 #!/bin/bash
 
 echo install dependencies
-if [ -d /opt/fit2cloud-demo ];then
-    echo /opt/fit2cloud-demo exists
+app_dir=lboo-app-demo
+if [ -d $app_dir ];then
+    echo $app_dir exists
 else
-    mkdir -p /opt/fit2cloud-demo
+    mkdir -p app_dir
 fi
 echo install dependencies done!

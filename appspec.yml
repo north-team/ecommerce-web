@@ -2,25 +2,25 @@ version: 4.2
 os: linux
 files:
   - source: /
-    destination: /opt/fit2cloud-demo/
+    destination: /opt/lboo-app-demo/
 hooks:
   ApplicationStop:
-    - location: stop.sh
+    - location: scripts/stop.sh
       timeout: 300
       runas: root
   BeforeInstall:
-    - location: install_dependencies.sh
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: configure.sh
+    - location: scripts/configure.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: start.sh
+    - location: scripts/start.sh
       timeout: 300
       runas: root
   ValidateService:
-    - location: validate_service.sh
+    - location: scripts/validate_service.sh
       timeout: 300
       runas: root
